@@ -5,11 +5,10 @@ def my_collect(array)
     while i < array.length
         collection << yield array[i]
         i += 0
+      end
       else
         false
       end
     end
     collection
   end
-  
-
