@@ -8,7 +8,6 @@ def my_collect(array)
       end
       else
         false
-      end
     end
     collection
   end
