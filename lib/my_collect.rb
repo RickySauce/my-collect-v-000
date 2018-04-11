@@ -1,13 +1,13 @@
-def my_collect(array)
+def my_collection(array)
   if block_given?
     i = 0
     collection = Array.new
     while i < array.length
-        collection << yield array[i]
-        i += 0
-      end
-      else
-        false
+      collection << yield array[i]
+      i += 1
     end
-    collection
+  else
+    false
   end
+  collection
+end
