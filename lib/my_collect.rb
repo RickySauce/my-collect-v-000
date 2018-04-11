@@ -9,6 +9,7 @@ def my_collect(array)
         false
       end
     end
+    collection
   end
-  collection
-end
+  
+
